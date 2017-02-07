@@ -1,0 +1,36 @@
+Yahtzee is a dice game that was invented by Milton Bradley and
+Edwin S. Lowe in 1956. The challenge of the game is to outduel
+the other player by scoring the most points.
+Points are obtained by rolling five 6-sided die across thirteen
+rounds. During each round, each player may roll the dice up to
+three times to make one of the possible scoring combinations.
+Once a combination has been achieved by the player, it may not 
+be used again in future rounds, except for the Yahtzee
+combination may be used as many times as the player
+makes the combination. Each scoring combination has different
+point totals. Some of these totals are achieved through the 
+accumulation of points across rolls and some are obtained
+as fixed sequences of values.
+
+Three-of-a-kind -
+	Three dice with the same face
+	Points: Sum of all face values on the 5 dice
+Four-of-a-kind -
+	Four dice with the same face
+	Points: Sum of all face values on the 5 dice
+Full house -
+	One pair and a three-of-a-kind
+	Points: 25
+Small straight -
+	A sequence of four dice
+	Points: 30
+Large straight -
+	A sequence of five dice
+	Points: 40
+Yahtzee -
+	Five dice with the same face
+	Points: 50
+Chance -
+	May be used for any sequence of dice; this is the
+	catch all combination
+	Points: Sum of all face values on the 5 dice

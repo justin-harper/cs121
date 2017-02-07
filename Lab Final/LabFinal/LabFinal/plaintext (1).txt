@@ -1,0 +1,11 @@
+The Visual Studio editor provides many features that make it easier for you to write and manage your code You can expand and collapse
+different blocks of code by using outlining You can learn more about the code you are using by using IntelliSense the Object Browser
+and the Call Hierarchy You can navigate inside your code by using features such as Navigate To Go To Definition and Find All References
+You can insert blocks of code with code snippets and you can generate code by using features such as Generate From Usage
+You can view your code in a number of different ways To see a class view of your solution you can open the Class View window or expand
+the nodes in the Solution Explorer under your class files
+You can search and replace text for single or multiple files For more information see Finding and Replacing Text If you use regular
+expressions note that find and replace now use NET regular expressions For more information see Using Regular Expressions in Visual Studio
+The different Visual Studio languages offer different sets of features and in some cases the features behave differently in different
+languages Many of these differences are specified in the descriptions of the features but for more information you can see the sections on 
+specific Visual Studio languages

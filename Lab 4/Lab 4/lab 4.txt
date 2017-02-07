@@ -1,0 +1,40 @@
+  
+This lab, along with your TA, will help you navigate through applying selection statements in C. Once again we will take a modular approach to designing solutions to the problems below. As part of the lab you will need to decide which C selection structure is best suited for a particular problem. You will use "if" and/or "switch" statements.
+ 
+Labs are held in a “closed” environment such that you may ask your TA questions. Please use your TAs knowledge to your advantage. You are required to move at the pace set forth by your TA. Please help other students in need when you are finished with a task. You may work in pairs if you wish. However, I encourage you to compose your own solution to each problem. Have a great time! Labs are a vital part to your education in CptS 121 so work diligently.
+ 
+Tasks:
+ 
+1. Write a Calorie Calculator program to determine what a person's caloric intake should be for a 24 hour span. The program must make a decision about caloric intake, to maintain current body weight, based on gender, age, weight, and height, and activity level. The Program must first compute the Basal Metabolic Rate (BMR). The BMR formula is the following:
+ 
+        Women: BMR = 655 + (4.35 * weight in pounds) + (4.7 * height in inches) - (4.7 * age in years)
+        Men: BMR = 66 + (6.23 * weight in pounds) + (12.7 * height in inches) - (6.8 * age in years)
+ 
+To determine total daily calorie needs, your program must apply the following guidelines:
+        1. Sedentary (little to no exercise): Calories = BMR * 1.2
+        2. Low activity: Calories = BMR * 1.375
+        3. Moderate activity: Calories = BMR * 1.55
+        4. High activity: Calories = BMR * 1.725
+        5. Extra activity: Calories = BMR * 1.9
+ 
+Define functions where appropriate! Also, read age, gender, weight, and height values from a file.
+ 
+2. Write a program to determine a professional baseball player's bonus at the end of a season. The bonus is calculated as follows:
+        1. All-Star Game appearance = $25,000
+        2. Regular season MVP = $75,000
+        3. World Series MVP = $100,000
+        4. Gold Glove award = $50,000
+        5. Silver Slugger award = $35,000
+        6. Home run champ = $25,000
+        7. Batting average champ = $25,000
+ 
+Prompt the user with a question related to each of the above categories. If the response is 'y' for yes, add the bonus to the total, otherwise if the response is 'n' move to the next question. Use functions
+where appropriate.
+ 
+3. Write a program which reads five numbers from a file and performs one of the following operations on those numbers:
+        1. Average
+        2. High value
+        3. Low value
+ 
+Your program must display a menu with the above options. Use a switch statement for the options. Display to the result to the screen.
+ 

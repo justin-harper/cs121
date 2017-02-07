@@ -1,0 +1,17 @@
+﻿Build started 12/13/2013 10:43:35 PM.
+     1>Project "E:\Library\Dropbox\School\WSU\CTS121\Programing Assignment 8\Programing Assignment 8\Programing Assignment 8\Programing Assignment 8.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt pa8.c
+         pa8.c
+     1>e:\library\dropbox\school\wsu\cts121\programing assignment 8\programing assignment 8\programing assignment 8\pa8.c(196): warning C4013: 'sumPrimes' undefined; assuming extern returning int
+     1>e:\library\dropbox\school\wsu\cts121\programing assignment 8\programing assignment 8\programing assignment 8\pa8.c(209): warning C4013: 'isPrime' undefined; assuming extern returning int
+     1>e:\library\dropbox\school\wsu\cts121\programing assignment 8\programing assignment 8\programing assignment 8\pa8.c(215): warning C4715: 'sumPrimes' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Library\Dropbox\School\WSU\CTS121\Programing Assignment 8\Programing Assignment 8\Debug\Programing Assignment 8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Library\Dropbox\School\WSU\CTS121\Programing Assignment 8\Programing Assignment 8\Debug\Programing Assignment 8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Library\Dropbox\School\WSU\CTS121\Programing Assignment 8\Programing Assignment 8\Debug\Programing Assignment 8.lib" /MACHINE:X86 Debug\main.obj
+         Debug\pa8.obj
+         Programing Assignment 8.vcxproj -> E:\Library\Dropbox\School\WSU\CTS121\Programing Assignment 8\Programing Assignment 8\Debug\Programing Assignment 8.exe
+     1>Done Building Project "E:\Library\Dropbox\School\WSU\CTS121\Programing Assignment 8\Programing Assignment 8\Programing Assignment 8\Programing Assignment 8.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20
